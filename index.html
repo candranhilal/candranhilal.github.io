@@ -362,10 +362,28 @@
             owl.owlCarousel({
                 items:3,
                 loop:true,
-                margin:15,
+                margin: 15,
                 autoplay:true,
                 autoplayTimeout:2000,
-                autoplayHoverPause:true
+                autoplayHoverPause:true,
+
+                responsiveClass:true,
+                responsive:{
+                        0:{
+                            items:1,
+                            nav:true
+                        },
+                        600:{
+                            items:3,
+                            nav:false
+                        },
+                        1000:{
+                            items:5,
+                            nav:true,
+                            loop:false
+                        }
+                      }
+
             });
 
     </script>
