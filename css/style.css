@@ -1,0 +1,77 @@
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #e2edff;
+  background-image: url(/img/profil.png);
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: 32%;
+}
+.contact {
+  background-color: #e2edff;
+  background-image: url(/img/profil2.png);
+  background-position: -10%;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+
+h1{
+  font-family: Segoe Script;
+  font-weight: bold;
+  color: darkblue;
+}
+
+#about {
+  background-color: #ffffff;
+}
+
+#banalyst {
+  background-color: #ffffff;
+}
+
+#teachers {
+  background-color: #ffffff;
+}
+
+#cybersec {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+#certif {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+#contact {
+  background-color: #ffffff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card-img-top {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.display-4{
+  font-family: Segoe Script;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.lead{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.desc-jumb{
+  font-family: Candara;
+  font-size: larger;
+}
+.deskripsi{
+  font-family: Candara;
+  font-size: larger;
+}
